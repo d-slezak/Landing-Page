@@ -103,3 +103,34 @@ button:hover{
     color: #3882F6;
     border: 5px, solid, #3882F6;
 }
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+}
+
+.random-info-block{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 170px;
+}
+
+.random-info-block img{
+    height: 170px;
+    border-radius: 7px;
+}
+
+
+.third{
+    background-color: #e5e7eb;
+}
