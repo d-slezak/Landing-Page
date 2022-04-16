@@ -1,0 +1,26 @@
+.nav{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+}
+
+.nav-header {
+    margin-right: auto;
+    color: #F9FaF8;
+    font-size: 24px;
+    padding: 0px 100px;
+}
+
+.nav-link{
+    display: flex;
+    padding: 0px 100px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: 'Roboto', arial;
+    padding: 0px 10px;
+}
+
