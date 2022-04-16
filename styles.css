@@ -1,27 +1,38 @@
+body{
+    margin: 0;
+}
+
 .container {
     display: flex;
     margin: 0px;
     padding: 0;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 
-.nav{
+.first{
     background-color: #1F2937;
     display: flex;
+    flex-direction: column;
+    padding: 1rem 14rem 0rem;
+}
+
+.nav{
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .nav-header {
     margin-right: auto;
     color: #F9FaF8;
     font-size: 24px;
-    padding: 0px 100px;
 }
 
 .nav-link{
     display: flex;
-    padding: 0px 100px;
 }
 
 .nav-link a {
@@ -32,21 +43,25 @@
     padding: 0px 10px;
 }
 
+.nav-link a:hover {
+    cursor: pointer;
+    color: #3882F6;
+}
+
 .hero{
-    background-color: #1F2937;
     color: #F9FaF8;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 25px 200px 100px 200px;
+    gap: 2rem;
+    padding: 25px 0px 100px 0px;
 }
 
 .hero-content{
     text-align: left;
     display: flex;
     flex-direction: column;
-    flex-basis: 400px;
-    margin-right: 50px;
+    flex: 1 1 0;
 }
 
 .hero-content h1{
@@ -59,9 +74,17 @@
     color: #e5e7eb;
 }
 
-.hero-image img {
-    height: 400px;
-    width: 400px;
+.hero-img {
+    display: flex;
+    flex: 1 1 0;
+
+}
+
+.hero-img img{
+    flex: 1;
+    object-fit: cover;
+    max-height: calc(214px + 1vmax);
+    border-radius: 7px;
 }
 
 button{
@@ -72,4 +95,11 @@ button{
     padding: 8px;
     border-radius: 8px;
     border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #f9faf8;
+    color: #3882F6;
+    border: 5px, solid, #3882F6;
 }
