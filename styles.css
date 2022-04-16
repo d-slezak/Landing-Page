@@ -134,3 +134,28 @@ button:hover{
 .third{
     background-color: #e5e7eb;
 }
+
+.third-content{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 30rem;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    margin: 0;
+}
+
+.sig
+{
+    margin: 0;
+    padding: 5px;
+    align-self: flex-end;
+    font-weight: bolder;
+}
